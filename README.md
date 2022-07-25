@@ -4,6 +4,8 @@
 # ussie
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/lehmkudc/ussie/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/lehmkudc/ussie/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of ussie is to work with football data.
@@ -18,7 +20,7 @@ You can install the development version of ussie from
 devtools::install_github("lehmkudc/ussie")
 #> Downloading GitHub repo lehmkudc/ussie@HEAD
 #> 
-#>          checking for file 'C:\Users\lehmk\AppData\Local\Temp\RtmpqGCneA\remotes5f1824ef2211\lehmkudc-ussie-1864806/DESCRIPTION' ...  v  checking for file 'C:\Users\lehmk\AppData\Local\Temp\RtmpqGCneA\remotes5f1824ef2211\lehmkudc-ussie-1864806/DESCRIPTION'
+#>          checking for file 'C:\Users\lehmk\AppData\Local\Temp\RtmpY1AqNT\remotes57401dbc5075\lehmkudc-ussie-cdc5b78/DESCRIPTION' ...  v  checking for file 'C:\Users\lehmk\AppData\Local\Temp\RtmpY1AqNT\remotes57401dbc5075\lehmkudc-ussie-cdc5b78/DESCRIPTION'
 #>       -  preparing 'ussie':
 #>    checking DESCRIPTION meta-information ...     checking DESCRIPTION meta-information ...   v  checking DESCRIPTION meta-information
 #>       -  checking for LF line-endings in source and make files and shell scripts
@@ -26,7 +28,7 @@ devtools::install_github("lehmkudc/ussie")
 #>       -  building 'ussie_0.0.0.9000.tar.gz'
 #>      
 #> 
-#> Installing package into 'C:/Users/lehmk/AppData/Local/Temp/RtmpWmjilo/temp_libpath52c15322e8'
+#> Installing package into 'C:/Users/lehmk/AppData/Local/Temp/RtmpWmjilo/temp_libpath52c48d4988'
 #> (as 'lib' is unspecified)
 ```
 
