@@ -12,6 +12,7 @@
 #' @examples
 #' uss_make_matches( engsoccerdata::spain, "Spain" )
 uss_make_matches <- function(data_engsoc, country) {
+  # Test
   result <-
     data_engsoc |>
     tibble::as_tibble() |>
