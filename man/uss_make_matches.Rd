@@ -19,5 +19,5 @@ tibble, dataframe with columns 'country', 'date', 'season', 'tier',
 Makes a standard tibble for league data
 }
 \examples{
-uss_make_matches( engsoccerdata::spain, "Spain")
+uss_make_matches( engsoccerdata::spain, "Spain" )
 }
