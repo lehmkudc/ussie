@@ -8,6 +8,13 @@
 \description{
 Built as a part of rstudio::conf2022 "Building Tidy Tools" workshop. Package originally built by Ian Lyttle and gone over by Emma Rand.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://lehmkudc.github.io/ussie/}
+}
+
+}
 \author{
 \strong{Maintainer}: Marina Lehmkuhl \email{dustin.lehmkuhl@regeneron.com}
 
