@@ -23,17 +23,24 @@ The goal of ussie is to help you work with European Football League data. It use
 
 We can create a matches tibble using raw data from engsoccerdata:
 ```{r matches_italy}
-italy <- uss_make_matches(engsoccerdata::italy, "Italy")
+italy <- uss_make_matches(engsoccerdata::italy, "italy")
 glimpse( italy )
 ```
 
 
 ```{r}
-england <- uss_get_matches("England")
+england <- uss_get_matches("england")
 ```
 
 
 ```{r}
-spain <- uss_get_matches("Spain")
+spain <- uss_get_matches("spain")
+```
+
+
+We can add filtering conditions
+```{r}
+uss_get_matches("england", season == 1966) |>
+  dplyr::glimpse()
 ```
 

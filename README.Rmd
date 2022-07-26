@@ -26,8 +26,8 @@ The goal of ussie is to work with football data.
 
 You can install the development version of ussie from [GitHub](https://github.com/) with:
 
-``` {r}
-# install.packages("devtools")
+```{undefined eval=FALSE, include=TRUE}
+install.packages("devtools")
 devtools::install_github("lehmkudc/ussie")
 ```
 
@@ -38,7 +38,13 @@ This is a basic example which shows you how to solve a common problem:
 ```{r example}
 library(ussie)
 
-uss_make_matches( engsoccerdata::england, country = "England")
+uss_make_matches( engsoccerdata::england, country = "england")
 
+```
+
+Can also filter results
+```{r}
+uss_get_matches("england", season == 1966) |>
+  dplyr::glimpse()
 ```
 
