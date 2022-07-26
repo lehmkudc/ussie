@@ -27,3 +27,13 @@ italy <- uss_make_matches(engsoccerdata::italy, "Italy")
 glimpse( italy )
 ```
 
+
+```{r}
+england <- uss_get_matches("England")
+```
+
+
+```{r}
+spain <- uss_get_matches("Spain")
+```
+
