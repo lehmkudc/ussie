@@ -14,10 +14,9 @@ test_that("uss_make_matches() works",{
       'visitor','goals_home','goals_visitor'
     )
   )
-
-  england <- uss_make_matches( engsoccerdata::england, "England" )
-
-  expect_identical( unique( england$country ), "England" )
+  expect_identical( unique( italy$country ), "Italy" )
 
   expect_s3_class(italy$tier, "factor")
+
+  expect_snapshot(dplyr::glimpse(italy))
 })

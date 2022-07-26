@@ -3,6 +3,7 @@ test_that("validate_data_frame works", {
   # ## 2.2.2 side effects (global state)
   # ## add helper function to warn on partial matches
   # ## - https://testthat.r-lib.org/articles/test-fixtures.html
+  local_warn_partial_match()
 
   # ## 2.2.1 side effects (errors)
   # ## test the `class` of the error, return error-condition object
@@ -31,6 +32,7 @@ test_that("validate_cols works", {
 
   # ## 2.2.2 side effects (global state)
   # ## add helper function to warn on partial matches
+  local_warn_partial_match()
 
   # ## 2.2.1 side effects (errors)
   # ## test the `class` of the error, return error-condition object
@@ -41,7 +43,7 @@ test_that("validate_cols works", {
 
   # ## 2.2.1 side effects (errors)
   # ## test the parts of error-condition object that you supply
-  expect_identical(error_condition$cols_re, "foo")
+  expect_identical(error_condition$cols_req, "foo")
   expect_identical(error_condition$cols_data, names(mtcars))
 
   # ## 2.2.1 side effects (errors)
